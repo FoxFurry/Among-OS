@@ -36,7 +36,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Supported commands</a></li>
+    <li><a href="#supported-commands">Supported commands</a></li>
 
   </ol>
 </details>
