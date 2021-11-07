@@ -10,7 +10,10 @@
   <h3 align="center">
     SOMMIP
   </h3>
-  <a href="https://gifyu.com/image/eB3V"><img src="https://s10.gifyu.com/images/ezgif.com-gif-maker-1078d93fce4a8317d.gif" alt="ezgif.com-gif-maker-1078d93fce4a8317d.gif" border="0" /></a>
+
+  <a href="https://github.com/FoxFurry/Among-OS">
+    <img src="_assets/amongos.gif" alt="Logo">
+  </a>
 
   <p align="center">
     Lab 1
