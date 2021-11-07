@@ -10,7 +10,7 @@
   <h3 align="center">
     SOMMIP
   </h3>
-  <a href="https://gifyu.com/image/eBwb"><img src="https://s10.gifyu.com/images/among.gif" alt="among.gif" border="0" /></a>
+  <a href="https://gifyu.com/image/eB3V"><img src="https://s10.gifyu.com/images/ezgif.com-gif-maker-1078d93fce4a8317d.gif" alt="ezgif.com-gif-maker-1078d93fce4a8317d.gif" border="0" /></a>
 
   <p align="center">
     Lab 1
