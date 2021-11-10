@@ -141,6 +141,7 @@ Supports next parameters:
 - _-p_ -- print CPU information
 - _-s_ -- print kernel name
 - _-a_ -- print Bruh  
+- _-i_ -- print SuS  
 If no parameters is specified - kernel name will be shown (e.g. uname -s)
 
 **Example:**

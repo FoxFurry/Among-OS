@@ -15,13 +15,13 @@ type ITerminal interface {
 }
 
 type terminal struct {
-	cmdMap map[string]command.ICommand
+	cmdMap      map[string]command.ICommand
 	inputPrefix string
 }
 
 func NewTerminal() ITerminal {
 	return &terminal{
-		cmdMap: command.GetCommands(),
+		cmdMap:      command.GetCommands(),
 		inputPrefix: ">",
 	}
 }
@@ -58,6 +58,9 @@ func (c *terminal) reader(r io.Reader) <-chan string {
 }
 
 func (c *terminal) parseInput(input string) string {
+	if input == "\n" {
+		return ""
+	}
 	inputFields := strings.Fields(input)
 
 	cmd, ok := c.cmdMap[inputFields[0]]
