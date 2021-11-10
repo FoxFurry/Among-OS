@@ -54,6 +54,17 @@ This should be your individual VISION of an simple CLI OS!_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- VISION OF OS -->
+
+## Vision of OS
+OS is an isolated infrastructure which gives user a higher level interface. This interface should manage the hardware and provide an easy to-use set of tools, which end user may require.
+Different OS may have different levels of this interface, for example: Windows 10 is designed for generic user and provides GUI with very easy interaction, Arch linux on the other hand is a geek-oriented OS.
+Arch provides no GUI, just a terminal and very little preinstalled packages. The level of interface which OS provides depends on target audience.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
