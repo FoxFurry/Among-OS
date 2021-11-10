@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"github.com/foxfurry/university/sommip/internal/boot"
 	"github.com/foxfurry/university/sommip/internal/console/terminal"
 	"os"
@@ -10,6 +11,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Testing started!")
+
 	ctx, cancel := context.WithCancel(context.Background())
 
 	term := terminal.NewTerminal()
@@ -25,4 +28,3 @@ func main() {
 
 	cancel()
 }
-
