@@ -1,12 +1,12 @@
 package command
 
-type hostname struct {}
+type hostname struct{}
 
-func (e *hostname) Execute(parameters []string) string{
+func (e *hostname) Execute(parameters []string) string {
 	if len(parameters) != 0 {
 		return "Not expected any parameters for <$ hostname>"
 	}
-	return "amongus-pc"
+	return "FOX_FURRY_OS-pc"
 }
 
 func (e *hostname) Help() string {

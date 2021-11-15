@@ -1,15 +1,14 @@
 package command
 
-type whoami struct {}
+type whoami struct{}
 
-func (e *whoami) Execute(parameters []string) string{
+func (e *whoami) Execute(parameters []string) string {
 	if len(parameters) != 0 {
 		return "Not expected any parameters for <$ whoami>"
 	}
-	return "Amogus"
+	return "FOX_FURRY"
 }
 
 func (e *whoami) Help() string {
-	return "whoami returns current user's name. Since there is no user system - it returns always Amogus"
+	return "whoami returns current user's name. Since there is no user system - it returns always FOX_FURRY"
 }
-

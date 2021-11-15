@@ -59,7 +59,7 @@ func (c *terminal) reader(r io.Reader) <-chan string {
 
 func (c *terminal) parseInput(input string) string {
 	if input == "\n" {
-		return ""
+		return "````````````````you have entered nothing give more arguments`````````````````"
 	}
 	inputFields := strings.Fields(input)
 

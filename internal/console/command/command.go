@@ -22,6 +22,7 @@ func GetCommands() map[string]ICommand {
 		cmdMap["hostname"] = &hostname{}
 		cmdMap["shutdown"] = &shutdown{}
 		cmdMap["gender"] = &nothing{}
+		cmdMap["time"] = &timecommand{}
 	})
 
 	return cmdMap
