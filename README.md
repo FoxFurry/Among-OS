@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -8,17 +8,17 @@
 <div align="center">
 
   <h3 align="center">
-    SOMMIP
+    SOMIPP
   </h3>
 
-  <a href="https://github.com/FoxFurry/Among-OS">
-    <img src="_assets/amongos.gif" alt="Logo">
+  <a href="https://github.com/THEKOT001/FOX_FURRY_OS">
+    <img src="_assets/FOX_FURRY_OS.gif" alt="Logo">
   </a>
 
   <p align="center">
     Lab 1
     <br>
-    Isac Arthur
+    Evstafiev Nicolae
   </p>
 </div>
 
@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This very simple and sussy project is an implementation of SOMMIP Lab 1 written in Golang. Among OS does not support any filesystem related functionality
+This very simple and sussy project is an implementation of SOMIPP Lab 1 written in Golang. FOX_FURRY_OS does not support any filesystem related functionality
 nor supports users and sessions. It's a simple printer with very basic user interaction
 
 **Task description:**  
@@ -80,7 +80,7 @@ Arch provides no GUI, just a terminal and very little preinstalled packages. The
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/FoxFurry/Among-OS.git
+   git clone https://github.com/THEKOT001/FOX_FURRY_OS
    ```
 2. Install the dependicies
    ```shell
@@ -119,15 +119,22 @@ Help is a simple command which show description of another command specified as 
         help echo
 
 ```
+### Time 
+Shows the real time on the device which can be used later in CLI
 
+**Example**
+```shell
+> time
+ 2021-11-16 00:04:43.8577176 +0200 EET m=+8.625000901
+```
 ### Shutdown
 
-Closes Among os with exit code 0 
+Closes FOX_FURRY_OS with exit code 0 
 
 **Example:**
 ```shell
 > shutdown
-Shutting down Among OS
+Shutting down FOX_FURRY_OS
 
 Process finished with the exit code 0
 
@@ -141,6 +148,8 @@ Supports next parameters:
 - _-p_ -- print CPU information
 - _-s_ -- print kernel name
 - _-a_ -- print Bruh  
+- _-i_ -- print SuS
+-  -f  -- prints "the Full" 
 If no parameters is specified - kernel name will be shown (e.g. uname -s)
 
 **Example:**
@@ -160,5 +169,4 @@ kernel release 5.69 k-among Intel(R) Core(TM) i9-6969K CPU @ 6.969Ghz Among OS B
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/arthur-isac-412a6519b/
+
